@@ -1,0 +1,78 @@
+/* Der er lavet en wrapper til skærmen, så hvis brugeren sidder på en skærm der er breddere end 1040 pixels, så vil designet og indholdet ikke blive strækt ud eller ændret */
+.wrapper {
+    width: 1040px;
+    margin: 0 auto;
+    background-color: #F2EEE8;
+    padding-bottom: 1em;
+}
+
+/* Body er lavet i hvid, så man kan se forskel på selve siden og når der kommer wrapper på */
+body {
+    background-color: white;
+}
+
+/* Der er tilføjet padding over overskrifterne, så der er lidt luft mellem starten af wrapperne og den første tekst */
+h1 {
+    padding-top: 0.5em;
+}
+
+/* Teksten er centreret i forhold til indhold så det står på linje med indholdet over og under. Der er tilføjet padding i begge sider og bunden så der kommer noget afstand og whitespace mellem hver container */
+p {
+    text-align: center;
+    padding: 0em 5 5 5 ;
+}
+
+.bjaelke {
+    border-top: 1px solid black;
+    /* Bestememr tykkelsen af bjælken */
+    width: 80px;
+    margin: 0 auto;
+    margin-top: 20px;
+    /* Bestemmer afstanden til overskriften */
+}
+
+/* Billederne er gjort mindre så de passer bedre til siderne */
+.image {
+    max-height: 200px;
+    max-width: 200px;
+}
+
+.image-produkt {
+    max-width: 300px;
+    max-height: 300px;
+}
+
+/* Tekst og billeder er flexet, så de står på række, dvs. et billede ved siden af teksten. Bredden er sat til 100% med 2em padding på alle sider så indholdet ikke går helt ud til kanterne af wrapperen */
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    max-width: 100%;
+    padding: 2em;
+}
+
+/* Uanset om det er billeder eller tekst der står til højre vil det ikke fylde mere end 50% af skærmbredden, på den måde fylder tekst og billede en lige stor del af skærmen og bliver sympetrisk */
+.flex-item-right {
+    flex: 50%;
+}
+
+/* Uanset om det er billeder eller tekst der står i venstre vil det ikke fylde mere end 50% af skærmbredden, på den måde fylder tekst og billede en lige stor del af skærmen og bliver symetrisk */
+
+.flex-item-left {
+    flex: 50%;
+}
+
+
+/* Der er lavet en ny wrapper for at kunne få forskellige farver på siden til de forskellige sektioner */
+.wrapper2 {
+    width: 1040px;
+    margin: 0 auto;
+    background-color: #DECAB7;
+    padding-bottom: 1em;
+}
+
+/* For at siden også virker på mobilen er den lavet responsive. Dvs. er skærmen 800px eller mindre vil indholdet stille sig op på en lang række */
+
+@media only screen and (max-width: 800px) {
+    
+}
