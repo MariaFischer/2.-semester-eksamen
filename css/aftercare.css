@@ -1,10 +1,5 @@
 /* Der er lavet en wrapper til skærmen, så hvis brugeren sidder på en skærm der er breddere end 1040 pixels, så vil designet og indholdet ikke blive strækt ud eller ændret */
-.wrapper {
-    width: 1040px;
-    margin: 0 auto;
-    background-color: #F2EEE8;
-    padding-bottom: 1em;
-}
+
 
 /* Body er lavet i hvid, så man kan se forskel på selve siden og når der kommer wrapper på */
 body {
@@ -49,6 +44,7 @@ p {
     text-align: center;
     max-width: 100%;
     padding: 2em;
+     background-color: #F2EEE8;
 }
 
 /* Uanset om det er billeder eller tekst der står til højre vil det ikke fylde mere end 50% af skærmbredden, på den måde fylder tekst og billede en lige stor del af skærmen og bliver sympetrisk */
