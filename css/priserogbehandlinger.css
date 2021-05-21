@@ -1,0 +1,143 @@
+
+
+
+
+
+
+/*--------flexboxe som er rund om billede og tekst---------*/
+
+.flex-container {
+    display: flex;
+    padding: 20px 20px 20px 20px;
+    background-color: #F4E9E2;
+   
+}
+
+
+
+.flex-container-two {
+     display: flex;
+    padding: 20px 20px 20px 20px;
+    background-color: #DECAB7;
+}
+
+
+
+.flex-item-left {
+    flex: 50%;
+    padding-left: 30px;
+}
+
+.flex-item-left h2 {
+    text-align: center;
+}
+
+.flex-item-right {
+    padding: 10px;
+    flex: 50%;
+}
+
+
+.flex-item-right h2 {
+    text-align: center;
+}
+
+
+/*-------dots---------- */
+.three-dots {
+    text-align: center;
+}
+
+.dot {
+    cursor: pointer;
+    height: 10px;
+    width: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 3%;
+    margin-bottom: 4%;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+
+
+.dot-two {
+    cursor: pointer;
+    height: 10px;
+    width: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 3%;
+    margin-bottom: 4%;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot-three {
+        cursor: pointer;
+    height: 10px;
+    width: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 3%;
+    margin-bottom: 4%;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+
+.dot-four {
+    cursor: pointer;
+    height: 10px;
+    width: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 3%;
+    margin-bottom: 4%;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+
+/*--------Billede redigering-------*/
+
+
+.billede-eksempler {
+    max-width: 80%;
+    height: auto;
+    margin-top: 40px;
+
+}
+
+.lashlift-slide {
+    flex: 50%;
+    text-align: center;
+}
+
+.singlelashes-slide {
+     flex: 50%;
+    text-align: center;
+}
+
+.hybridlashes-slide {
+    flex: 50%;
+    text-align: center;
+}
+
+.volumelashes-slide {
+    flex: 50%;
+    text-align: center;
+}
+
+/* Responsive layout - Flexboksene går fra at være to til en kolonne */
+@media only screen and (max-width: 500px) {
+    .flex-container {
+        flex-direction: column;
+    }
+}
+

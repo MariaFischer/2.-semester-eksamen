@@ -1,0 +1,374 @@
+ /*-------Fonte og størrelser storskærm-------*/
+
+ h1 {
+     font-family: 'EB Garamond', serif;
+     font-size: 25px;
+     text-align: center;
+     font-weight: 100;
+     
+ }
+
+ h2 {
+     font-family: 'EB Garamond', serif;
+     font-size: 20px;
+     font-weight: 100;
+ }
+
+ h3 {
+     font-family: 'EB Garamond', serif;
+     font-size: 15px;
+     font-weight: 100;
+ }
+
+ h4 {
+     font-family: 'EB Garamond', serif;
+     font-size: 14px;
+     font-weight: 100;
+ }
+
+ /*-------footer h5-------*/
+ h5 {
+     font-family: 'Roboto', sans-serif;
+     font-size: 14px;
+ }
+
+ /*-------Brødtekst-------*/
+
+ p {
+     font-family: 'Roboto', sans-serif;
+     font-size: 10px;
+ }
+
+
+ html,
+ body {
+     width: 100%;
+     height: 100%;
+     margin: 0;
+    background-color: white;
+}
+ 
+
+ /*-------overskrift margin-top fordi header er sticky-------*/
+
+.headline-sektion {
+    margin-top: 150px;
+    
+}
+
+
+.headline-sektion p {
+    text-align: center;
+    margin-right: 50px;
+    margin-left: 50px;
+   padding-bottom: 5%;
+    line-height: 2em;
+}
+ /*-------kun wrapper på body-------*/
+
+ .wrapper {
+     margin: 0 10px 200px 10px;
+
+ }
+
+ /*-------instagram nyhedsfeed-------*/
+
+ .info-bar {
+     display: none;
+ }
+
+
+ /*-------logo texts-------*/
+.logo-text-mobile img {
+    width: 70px;
+   float: left;
+    margin: 10px 0 0 10px;
+
+}
+
+
+.logo-text-desktop {
+    display: none;
+}
+
+
+ /*-------Responsiv Navigationsbar-------*/
+ .nav {
+     
+     position: fixed;
+     top:0;
+     width: 100%;
+     background-color: black;
+     text-align: right;
+     height: 100px;
+     font-family: 'Roboto', sans-serif;
+     font-size: 13px;
+     z-index:9999;
+
+ }
+
+
+ .menu {
+    
+     text-align: right;
+     margin: 20px 0 10px 0;
+
+ }
+
+ .menu a {
+     text-decoration: none;
+     color: white;
+     margin: 0 22px;
+     line-height: 70px;
+     
+ }
+
+ .menu a:hover {
+     text-decoration: underline;
+ }
+
+
+  .some-logo {
+         display: none;
+     }
+
+/*-------bjælke under alle overskrifter-------*/
+
+.bjaelke  { 
+border-top: 1px solid black; 
+width: 80px; 
+margin: 0 auto;
+margin-top:5px;
+}
+
+ /*-------burger-ikon-------*/
+ label {
+     margin: 0 0 0 0;
+     font-size: 35px;
+     line-height: 60px;
+     color: white;
+     display: none;
+ }
+
+ #burgermenu {
+     display: none;
+     
+ }
+
+
+ /*-------footer ikoner-------*/
+
+ .icon {
+     padding-bottom: 20px;
+ }
+
+
+ .icon img {
+     max-width: 23px;
+     margin: 10px 0 0 0;
+ }
+
+
+ .icon h5 {
+     font-size: 10px;
+     margin: 0 0 10px 0;
+ }
+
+
+ .icon h4 {
+     font-family: 'Roboto', sans-serif;
+ }
+
+ .footer {
+
+     border-top: 1px solid black;
+     text-align: center;
+     background-color: white;
+
+ }
+
+
+ /*-------copyright-bar under footer-------*/
+ .copyright-bar {
+     background-color: black;
+     height: 25px;
+
+
+ }
+
+ .copyright-bar h4 {
+     color: white;
+     text-align: center;
+     margin: 0;
+ }
+
+ .copyright-bar h4 a {
+     color: white;
+ }
+
+
+ /*-------responsiv web design start-------*/
+
+ @media only screen and (max-width: 800px) {
+
+
+
+ /*------Skifter fra burgermenu til alm. menu ved 800px bredde-------*/
+
+     label {
+         display: block;
+         cursor: pointer;
+         margin: 15px 10px;
+         
+     }
+
+     .menu {
+         text-align: center;
+         width: 100%;
+         display: none;
+
+     }
+
+     .menu a {
+         display: block;
+         border-bottom: 1px solid white;
+         margin: 0;
+         background-color: black;
+         color: white;
+     }
+
+     #burgermenu:checked + .menu {
+         display: block;
+         text-align: center;
+         
+     }
+ }
+
+
+ @media only screen and (min-width: 800px) {
+  
+     /*-------overskrift margin-top fordi header er sticky-------*/
+   
+     .headline-sektion {
+    margin-top: 200px;
+}
+     /*-------instagram nyhedsfeed vist-------*/
+
+     .info-bar {
+         display: block;
+         background-color:#F8ECEA;
+         height: 40px;
+
+     }
+
+     .info-bar h4 {
+         color: black;
+         text-align: center;
+         margin:0;
+         padding:10px;
+     }
+
+     .info-bar h4 a {
+         color: black;
+     }
+     
+     /*-------højde på header desktop + vist logo ------*/
+     
+     .nav {
+         height: 150px;
+     }
+     
+     
+     .logo-text-desktop {
+         display: block;
+         float: left;
+        
+           
+     }
+     .logo-text-desktop img {
+          width: 88px;
+        margin:10px 0 0 60px; 
+     }
+     
+     .logo-text-mobile img {
+         display: none;
+     }
+   
+
+     /*-------facebook og instagram logo på header------*/
+
+     .some-logo {
+         display: block;
+         width: 30px;
+         float: right;
+         margin:40px 10px 0 0px;
+     }
+
+     .icon {
+         margin: 0 100px 0 100px;
+     }
+
+     .icon img {
+
+         margin: 40px 0 0 0;
+     }
+     
+     
+     /*-----footer iconer flexet efter 800mediaQ------*/
+     
+     .time-contact {
+         padding-top:20px;
+     } 
+
+     .footer {
+         display: flex;
+         justify-content: center
+     }
+
+     /*-------Fonte og størrelser efter 800 px-------*/
+
+     h1 {
+         font-family: 'EB Garamond', serif;
+         font-size: 40px;
+         text-align: center;
+     }
+
+     h2 {
+         font-family: 'EB Garamond', serif;
+         font-size: 35px;
+          
+     }
+
+     h3 {
+         font-family: 'EB Garamond', serif;
+         font-size: 20px;
+     }
+
+     h4 {
+         font-family: 'EB Garamond', serif;
+         font-size: 14px;
+     }
+
+     /*-------footer h5-------*/
+     h5 {
+         font-family: 'Roboto', sans-serif;
+         font-size: 14px;
+     }
+
+     /*-------Brødtekst-------*/
+
+     p {
+         font-family: 'Roboto', sans-serif;
+         font-size: 16px;
+     }
+
+
+
+ }
+
+@media only screen and (min-width: 1000px) {
+
+  .wrapper {
+         margin: 0 80px 0 80px;
+     }
+}
