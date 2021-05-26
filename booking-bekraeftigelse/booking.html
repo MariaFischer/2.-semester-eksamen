@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Booking</title>
+    <link rel="stylesheet" href="booking.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div class="inner-wrapper">
+
+            <h1> Booking </h1>
+            <div class="bjaelke"></div>
+
+            <h2>Udfyld formularen med hvilken behandling du kunne tænkte dig. Er du i tvivl omkring hvilken behandling der vil være bedst til dig, er du også meget velkommen til at sende en mail til klinikken: amalie-h.r@gmail.com
+            </h2>
+
+            <div id="box">
+
+                <div class="sektion">
+                   
+                    <form id="form" action="/beskraeftigelse/bekraeftigelse.html" method="post">
+                       
+                       <div class="flex-container">
+                       
+                        <div class="flex-item-left">
+
+                            <div class="flexsektion input-container">
+                                <label>Vælg dato</label>
+                                <input type="date" name="dato" id="dato" required>
+
+                                <label>Vælg tidspunkt</label>
+                                <input type="time" name="tidspunkt" id="tidspunkt" required>
+                            </div>
+
+                            <div class="flexsektion">
+                                <h4> Vælg behandling</h4>
+                                <h3> Lash lift</h3>
+
+                                <label><input type="checkbox" class="checkboks" value="Lash lift">Lash lift med farve - 325 kr</label>
+                                <br>
+                                <label><input type="checkbox" class="checkboks" value="Lash lift">Lash lift uden farve - 300 kr</label>
+
+                            </div>
+
+                            <div class="flexsektion">
+                                <h3> Single Lashes </h3>
+
+                                <label><input type="checkbox" class="checkboks" value="lash">Nyt sæt - 550 kr</label>
+                                <br>
+
+                                <label><input type="checkbox" class="checkboks" value="Single lashes"> Opfyldning efer 1 uge - 200 kr</label>
+
+                                <br>
+
+                                <label><input type="checkbox" class="checkboks" value="Single lashes">Opfyldning efter 2 uger - 300 kr </label>
+
+                                <br>
+
+                                <label><input type="checkbox" class="checkboks" value="Single lash">Opfyldning efter 3 uger - 400 kr </label>
+
+
+                            </div>
+
+
+                            <div class="flexsektion">
+                                <h3> Hybyrid Lashes </h3>
+
+                                <label><input type="checkbox" class="checkboks" value="Hybrid lashes"> Nyt sæt - 650 kr </label>
+                                <br>
+
+                                <label><input type="checkbox" class="checkboks" value="Hybrid lashes"> Opfyldning efter 1 uge - 250 kr </label>
+
+                                <br>
+
+                                <label><input type="checkbox" class="checkboks" value="Hybrid lashes">Opfyldning efter 2 uger - 350 kr </label>
+
+                                <br>
+
+                                <label><input type="checkbox" class="checkboks" value="Hybrid lashes">Opfyldning efter 3 uger - 450 kr </label>
+
+
+                            </div>
+
+                            <div class="flexsektion">
+                                <h3> Volume Lashes </h3>
+
+                                <label><input type="checkbox" class="checkboks" value="Volume Lashes"> Nyt sæt - 750 kr </label>
+                                <br>
+
+                                <label><input type="checkbox" class="checkboks" value="Volume Lashes"> Opfyldning efter 1 uge - 350 kr </label>
+
+                                <br>
+
+                                <label><input type="checkbox" class="checkboks" value="Volume Lashes">Opfyldning efter 2 uger - 450 kr </label>
+
+                                <br>
+
+                                <label><input type="checkbox" class="checkboks" value="Volume Lashes">Opfyldning efter 3 uger - 550 kr </label>
+                            </div>
+                        </div>
+
+
+
+
+                        <div class="flex-item-right">
+                            <div class="flexsection form-image">
+                                <img class="stregtegninger" src="images/stregtegninger.png" alt="stregtegninger">
+                            </div>
+
+                            <div class="flexsektion input-container">
+                                <label>Kontaktoplysninger</label>
+
+                                <button type="submit">Book med Facebook</button>
+
+                                <label>eller</label>
+                                <input class="book" type="text" name="navn" placeholder="Indtast navn" id="navn" required>
+
+                                <input class="book" type="text" name="telefonnummer" id="telefonnummer" placeholder="Indtast telefonnummer" required>
+
+                                <button class="book" type="submit" id="bbok">Book nu</button>
+                            </div>
+
+                        </div>
+                         </div>
+                    </form>
+                   
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="booking.js"></script>
+</body></html>
