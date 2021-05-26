@@ -4,7 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <meta name="keywords" content="Thise, skyr, produkter, opskrifter, forhandlere, om Thise, om skyr, økologi" />
+    <meta name="description" content="Velkommen hos Klinik Hvid" />
+    <title>Klinik hvid</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/landing-page.css">
     <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
@@ -12,6 +14,8 @@
 
 </head>
 
+
+<!----- Header start ----->
 
 <header>
 
@@ -27,25 +31,25 @@
         <!-------Responsiv Navigationsbar------->
 
         <div class="logo-text-desktop">
-            <img src="images/logo-336w.png" alt="logo">
+            <a href="landing-page.html"><img src="images/logo-336w.png" alt="logo"></a>
         </div>
         <div class="some-logo">
-            <img src="images/instagram-logo.svg" alt="logo">
+            <a href="https://www.instagram.com/klinikhvid/" target="_blank"><img src="images/instagram-logo.svg" alt="logo"></a>
         </div>
 
         <div class="some-logo">
             <img src="images/facebook-logo.svg" alt="logo">
         </div>
         <div class="logo-text-mobile">
-            <img src="images/logo-336w.png" alt="logo">
+            <a href="landing-page.html"><img src="images/logo-336w.png" alt="logo"></a>
         </div>
         <label for="burgermenu">&#9776;</label>
         <input type="checkbox" id="burgermenu" />
         <div class="menu">
-            <a href="#">BOOKING</a>
-            <a href="#">BEHANDLINGER &amp; PRISER</a>
-            <a href="#">PLEJE</a>
-            <a href="#">OM MIG</a>
+            <a href="priserogbehandlinger.html">BEHANDLINGER &amp; PRISER</a>
+            <a href="booking.html">BOOKING</a>
+            <a href="aftercare.html">PLEJE</a>
+            <a href="ommig.html">OM MIG</a>
 
 
         </div>
@@ -57,7 +61,7 @@
 
 
 </header>
-
+<!----- Header slut ----->
 
 
 
@@ -65,13 +69,14 @@
     <!-------baggrundsbillede------->
     <div class="front-image-sektion">
         <h1>Velkommen hos Klinik Hvid</h1>
-        <h2><strong>Skønhed og velvære der gør din hverdagen nemmere.</strong></h2>
         <div class="buttons">
-            <button class="booking-button"><strong>Book nu</strong></button>
-            <button class="contact-button"><strong>Kontakt</strong></button>
+            <div class="booking-contact-button">
+                <a href="booking.html"><button class="booking-button">BOOK NU</button></a>
+                <a href="#footer"><button class="contact-button">KONTAKT</button></a>
+            </div>
         </div>
-       
-        
+
+
     </div>
     <!-------baggrundsbillede slut------->
     <div class="wrapper">
@@ -109,7 +114,8 @@
         <div class="about-me">
 
             <div class="about-me-image">
-                <img src="images/amalie-image-500w.png" alt="portrait" class="portrait-image">
+                <img src="images/amalie-image-500w.jpg" alt="portrait" class="portrait-image" class="background-img">
+                <img src="images/blade/2-blade.png" alt="portrait" class="blad-1">
             </div>
             <div class="about-me-text">
                 <h2>Om Mig</h2>
@@ -118,7 +124,7 @@
                     Jeg er uddannet certificeret vippetekniker og startede klinikken tilbage i 2018, ved siden af mit studie. Jeg har altid været passioneret omkring at levere det bedste resultat og går meget op i at yde en god service for mine kunder.</p>
                 <div>
                     <div class="buttons">
-                        <button class="read-more-button">Læs mere</button>
+                        <button class="read-more-button">LÆS MERE</button>
                     </div>
                 </div>
             </div>
@@ -255,7 +261,7 @@
 
         <div>
             <div class="buttons">
-                <button class="follow-button">Følg @klinikhvid</button>
+                <button class="follow-button">FØLG @klinikhvid</button>
             </div>
         </div>
 
@@ -263,13 +269,13 @@
     </div>
 
 
- <!-------Klinik hvid instagram photo grid------->
+    <!-------Klinik hvid instagram photo grid------->
     <!-------wrapper slut------->
 
 
 </body>
 
-<footer>
+<footer id="footer">
 
 
 

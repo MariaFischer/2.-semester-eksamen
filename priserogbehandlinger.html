@@ -1,19 +1,32 @@
 <!DOCTYPE html>
-<html>
+<html lang="da">
+
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="keywords" content="Skønhed, Behandlinger, priser, selvforkælelse, vipper, lashes" />
+    <meta name="description" content="" />
+
+
+
     <title>Behandlinger &amp; priser</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/priserogbehandlinger.css">
     <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Roboto:wght@100&display=swap" rel="stylesheet">
 
+
+
+
 </head>
 
 
 
+
+
+<!----- Header start ----->
 
 <header>
 
@@ -29,25 +42,25 @@
         <!-------Responsiv Navigationsbar------->
 
         <div class="logo-text-desktop">
-            <img src="images/logo-336w.png" alt="logo">
+            <a href="landing-page.html"><img src="images/logo-336w.png" alt="logo"></a>
         </div>
         <div class="some-logo">
-            <img src="images/instagram-logo.svg" alt="logo">
+            <a href="https://www.instagram.com/klinikhvid/" target="_blank"><img src="images/instagram-logo.svg" alt="logo"></a>
         </div>
 
         <div class="some-logo">
             <img src="images/facebook-logo.svg" alt="logo">
         </div>
         <div class="logo-text-mobile">
-            <img src="images/logo-336w.png" alt="logo">
+            <a href="landing-page.html"><img src="images/logo-336w.png" alt="logo"></a>
         </div>
         <label for="burgermenu">&#9776;</label>
         <input type="checkbox" id="burgermenu" />
         <div class="menu">
-            <a href="#">BOOKING</a>
-            <a href="#">BEHANDLINGER &amp; PRISER</a>
-            <a href="#">PLEJE</a>
-            <a href="#">OM MIG</a>
+             <a href="priserogbehandlinger.html">BEHANDLINGER &amp; PRISER</a>
+            <a href="booking.html">BOOKING</a>
+            <a href="aftercare.html">PLEJE</a>
+            <a href="ommig.html">OM MIG</a>
 
 
         </div>
@@ -59,248 +72,308 @@
 
 
 </header>
-
-
+<!----- Header slut ----->
 
 <body>
-    <div class="wrapper">
-        <!----- Overskrift start ----->
-        <div class="headline-sektion">
-            <h1>Behandlinger og priser</h1>
+<div class="wrapper">
+    <!-- Overskrift start -->
+    <div class="headline-sektion">
+        <h1>Behandlinger og priser</h1>
+        <div class="bjaelke"></div>
+
+
+        <p>Her får du et overblik over hvilke behandlinger, samt priser jeg tilbyder i min klinik. <br> Er du i tvivl om hvilken behandling, som passer bedst til dig, er du velkommen til
+            at kontakte mig på <br>mail: amalie-h.r@gmail.com.</p>
+    </div>
+    <!-- Overskrift slut -->
+
+
+    <!-- Lash lift start m. slideshow -->
+    <div class="flex-container">
+
+        <div class="slideshow-container">
+            <div class="lashlift-slide">
+                <img src="images/lashlift1.png" alt="lashlift" class="billede-eksempler">
+            </div>
+
+            <div class="lashlift-slide">
+                <img src="images/lashlift2.png" alt="lashlift" class="billede-eksempler">
+            </div>
+
+            <div class="lashlift-slide">
+                <img src="images/lashlift3.png" alt="lashes" class="billede-eksempler">
+            </div>
+
+            <div class="three-dots">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+        </div>
+
+
+
+        <div class="flex-item-left">
+            <h2>Lash lift</h2>
+            <div class="bjaelke"></div>
+            <h3>Om behandlingen </h3>
+            <p>
+                Til dig som ønsker et naturligt look med egne vipper <br> Denne behandling går ind og laver et semi-permanent buk på
+dine egne vipper, behandlingen får vipperne til at syne længere og 
+fyldigere. Behandlingen holder i ca. 6-8 uger og det
+anbefales ikke at gøre der oftere end med 4 ugers mellemrum fra
+hinanden.<br></p>
+            <h3> Priser </h3>
+            <br>
+            <p>
+                Lift uden farve .......................................................... 300 kr,-
+                <br>
+                Lift med farve ............................................................ 325 kr,-
+            </p>
+            
+<button class="buttonbooknu">BOOK NU</button>
+   
+        </div>
+
+    </div>
+    <!--lash lift + slideshow slut -->
+
+
+
+    <!-- singel Lash start m. slideshow -->
+    <div class="flex-container-two">
+
+
+        <div class="flex-item-right">
+            <h2>Single Lashes</h2>
+            <div class="bjaelke"></div>
+            <h3>Om behandlingen</h3>
+            <p>
+              
+             Godt valg til di, som ønsker et naturligt look med lash extensions.<br>
+            Behandlingen med single lashes består i at man
+placere en falsk vippe på hver af ens egne vipper.
+Det vil sig jo flere vipper man selv har fra
+naturens side, desto tættere vil det færdige resultat blive.
+              
+              </p>
+
+            <br>
+
+
+            <h3> Priser </h3>
+            <p>
+                Nyt sæt.............................................................................. 550 kr,- <br>
+                Opfyldning efter 1 uge ................................................ 200 kr <br>
+                Opfyldning efter 2 uger ................................................ 300 kr <br>
+                Opfyldning efter 3 uger ................................................ 400 kr. <br>
+
+            </p>
+            <button class="buttonbooknu">BOOK NU</button>
+        </div>
+        <div class="slideshow-container">
+
+            <div class="singlelashes-slide">
+                <img src="images/singlelashes1.png" alt="singlelashes" class="billede-eksempler">
+            </div>
+
+            <div class="singlelashes-slide">
+                <img src="images/singlelashes2.png" alt="singlelashes" class="billede-eksempler">
+            </div>
+
+            <div class="singlelashes-slide">
+                <img src="images/singlelashes3.png" alt="singlelashes" class="billede-eksempler">
+            </div>
+
+            <div class="three-dots">
+                <span class="dot-two" onclick="secondcurrentSlide(1)"></span>
+                <span class="dot-two" onclick="secondcurrentSlide(2)"></span>
+                <span class="dot-two" onclick="secondcurrentSlide(3)"></span>
+            </div>
+        </div>
+
+        <!--single lash + slideshow slut -->
+
+
+
+    </div>
+    <!--- hybrid Lash start m. slideshow-->
+    <div class="flex-container">
+        <div class="slideshow-container">
+
+            <div class="hybridlashes-slide">
+                <img src="images/hybridlashes1.png" alt="hybridlashes" class="billede-eksempler">
+            </div>
+
+            <div class="hybridlashes-slide">
+                <img src="images/hybridlashes2.png" alt="hybridlashes" class="billede-eksempler">
+            </div>
+
+            <div class="hybridlashes-slide">
+                <img src="images/hybridlashes3.png" alt="hybridlashes" class="billede-eksempler">
+            </div>
+
+            <div class="three-dots">
+                <span class="dot-three" onclick="thirdcurrentSlide(1)"></span>
+                <span class="dot-three" onclick="thirdcurrentSlide(2)"></span>
+                <span class="dot-three" onclick="thirdcurrentSlide(3)"></span>
+            </div>
+        </div>
+
+        <div class="flex-item-right">
+            <h2>Hybrid Lashes</h2>
+            <div class="bjaelke"></div>
+            <h3>Om behandlingen </h3>
+            <p>
+              Til dig som ønsker en god mellemvej<br>
+              
+              Hvis man ønsker mere fylde en single lashes, men volume lashes stadig er for voldsomt, så erer hybrid lashes en god mellemvej og et
+perfekt kompromis. Her består behandlingen af single lashes på
+50% af naturvipperne og volume faner på den de andre 50%.
+            </p>
+
+            <br>
+
+
+            <h3> Priser</h3><br>
+            <p>
+
+
+                Nyt sæt.............................................................................. 650,-<br>
+                Opfyldning efter 1 uge ................................................ 250 ,- <br>
+                Opfyldning efter 2 uger ................................................ 350 ,- <br>
+                Opfyldning efter 3 uger ................................................ 450 ,- <br>
+
+            </p>
+     <button class="buttonbooknu">BOOK NU</button>
+        </div>
+   
+    </div>
+    <!--hybrid lash + slideshow slut -->
+
+    <!--volume Lash start m. slideshow -->
+    <div class="flex-container-two">
+
+
+        <div class="flex-item-right">
+            <h2>Volume Lashes</h2>
             <div class="bjaelke"></div>
 
 
-            <p>Her får du et overblik over hvilke behandlinger og priser jeg tilbyder i min klinik. <br> Er du i tvivl omkring hvilken behandler passer bedst til dig, er du velkommen til
-                at kontakte mig på <br>mail: amalie-h.r@gmail.com.</p>
+            <h3> Om behandlingen</h3>
+            <p>
+                Volume lashes er til dig som ønsker et mere dramatisk look. <br>
+                
+                
+                Ved denne behandling sætter man ikke kun et hår på hvert hår
+men derimod en mere avanceret teknik hvor man samler flere
+syntetiske hår sammen i en såkaldt ´fane´ som derefter limes til
+hvert af kundens naturlige øjenvippe. Man laver buketter af tyndere
+hår så vagten stadig ikke bliver for tungt for de eksisterende vipper.
+
+            <br>
+
+
+            <h3> Priser </h3><br>
+            <p>
+
+                Nyt sæt............................................................................ 750,- <br>
+                Opfyldning efter 1 uge ................................................ 350 ,- <br>
+                Opfyldning efter 2 uger ................................................ 450 ,- <br>
+                Opfyldning efter 3 uger ................................................ 550 ,- <br>
+
+            </p>
+            <button class="buttonbooknu">BOOK NU</button>
         </div>
-        <!----- Overskrift slut ----->
+        <div class="slideshow-container">
 
-
-
-
-        <!----- Lash lift start m. slideshow ----->
-        <div class="flex-container">
-
-            <div class="slideshow-container">
-                <div class="lashlift-slide">
-                    <img src="images/lashlift-514w.jpg" alt="lashes" class="billede-eksempler">
-                </div>
-
-                <div class="lashlift-slide">
-                    <img src="images/volumelash-514w.jpg" alt="lashes" class="billede-eksempler">
-                </div>
-
-                <div class="lashlift-slide">
-                    <img src="images/singellash-514w.jpg" alt="lashes" class="billede-eksempler">
-                </div>
-
-                <div class="three-dots">
-                    <span class="dot" onclick="currentSlide(1)"></span>
-                    <span class="dot" onclick="currentSlide(2)"></span>
-                    <span class="dot" onclick="currentSlide(3)"></span>
-                </div>
+            <div class="volumelashes-slide">
+                <img src="images/volumelashes1.png" alt="volumelashes" class="billede-eksempler">
             </div>
 
-
-
-            <div class="flex-item-left">
-                <h2>Lash lift</h2>
-                <div class="bjaelke"></div>
-                <p>Om behandlingen<br>
-                    Lash extensions med single lashes er for dig som ønsker et meget naturligt look. <br>
-                    Vipperne sættes på én for én på dine egne vipper hvilket giver båd og længere vipper.<br></p>
-                <h4> Priser </h4>
-                <br>
-                <p>
-                    Lift uden farve ................................................ 300 kr,-
-                    <br>
-                    Lift med farve .................................................. 325 kr,-
-                </p>
+            <div class="volumelashes-slide">
+                <img src="images/volumelashes2.png" alt="volumelashes" class="billede-eksempler">
             </div>
 
-        </div>
-        <!----- lash lift + slideshow slut -------->
-
-
-
-        <!----- singel Lash start m. slideshow ----->
-        <div class="flex-container-two">
-
-            
-             <div class="flex-item-right">
-                <h2>Single Lashes</h2>
-                <div class="bjaelke"></div>
-                <p>Om behandlingen<br>
-                <p>
-                    Lash extensions med single lashes er for dig som ønsker et meget naturligt look.<br>
-                    Vipperne sættes på én for én på dine egne vipper hvilket giver både fyldigere ogere vipper.</p>
-
-                <br>
-
-
-                <h4> Priser </h4><br>
-                <p>
-
-                    Nyt sæt................................................ 550 kr,- <br>
-                    Opfyldning efter 1 uge ................................................ 200 kr <br>
-                    Opfyldning efter 2 uger ................................................ 300 kr <br>
-                    Opfyldning efter 3 uger ................................................ 400 kr. <br>
-
-                </p>
-            </div>
-            <div class="slideshow-container">
-
-                <div class="singlelashes-slide">
-                    <img src="images/lashlift-514w.jpg" alt="lashes" class="billede-eksempler">
-                </div>
-
-                <div class="singlelashes-slide">
-                    <img src="images/volumelash-514w.jpg" alt="lashes" class="billede-eksempler">
-                </div>
-
-                <div class="singlelashes-slide">
-                    <img src="images/singellash-514w.jpg" alt="lashes" class="billede-eksempler">
-                </div>
-
-                <div class="three-dots">
-                    <span class="dot-two" onclick="secondcurrentSlide(1)"></span>
-                    <span class="dot-two" onclick="secondcurrentSlide(2)"></span>
-                    <span class="dot-two" onclick="secondcurrentSlide(3)"></span>
-                </div>
+            <div class="volumelashes-slide">
+                <img src="images/volumelashes3.png" alt="lashes" class="billede-eksempler">
             </div>
 
-<!----- single lash + slideshow slut -------->
-
-           
-
-        </div>
- <!----- hybrid Lash start m. slideshow ----->
-      <div class="flex-container">
- <div class="slideshow-container">
-
-                <div class="hybridlashes-slide">
-                    <img src="images/lashlift-514w.jpg" alt="lashes" class="billede-eksempler">
-                </div>
-
-                <div class="hybridlashes-slide">
-                    <img src="images/volumelash-514w.jpg" alt="lashes" class="billede-eksempler">
-                </div>
-
-                <div class="hybridlashes-slide">
-                    <img src="images/singellash-514w.jpg" alt="lashes" class="billede-eksempler">
-                </div>
-
-                <div class="three-dots">
-                    <span class="dot-three" onclick="thirdcurrentSlide(1)"></span>
-                    <span class="dot-three" onclick="thirdcurrentSlide(2)"></span>
-                    <span class="dot-three" onclick="thirdcurrentSlide(3)"></span>
-                </div>
-            </div>
-            
-             <div class="flex-item-right">
-                <h2>Hybrid Lashes</h2>
-                <div class="bjaelke"></div>
-                <p>Om behandlingen<br>
-                <p> 
-                    Hybrid lashes - hvis du vælger hybrid lashes vil du få påsat både enkelte vipper
- og buketter af vipper på dine egne.<br> Denne behandlinger er for dig som ønsker lidt 
-ekstra volumen og fylde på vipperne.
-                </p>
-
-                <br>
-
-
-                <h4> Priser </h4><br>
-                <p>
-
-                    Nyt sæt................................................ 550 kr,- <br>
-                    Opfyldning efter 1 uge ................................................ 200 kr <br>
-                    Opfyldning efter 2 uger ................................................ 300 kr <br>
-                    Opfyldning efter 3 uger ................................................ 400 kr. <br>
-
-                </p>
+            <div class="three-dots">
+                <span class="dot-four" onclick="fourthcurrentSlide(1)"></span>
+                <span class="dot-four" onclick="fourthcurrentSlide(2)"></span>
+                <span class="dot-four" onclick="fourthcurrentSlide(3)"></span>
             </div>
         </div>
-        <!----- hybrid lash + slideshow slut -------->
-    
-    <!----- volume Lash start m. slideshow ----->
-      <div class="flex-container-two">
-
-            
-             <div class="flex-item-right">
-                <h2>Volume Lashes</h2>
-                <div class="bjaelke"></div>
-                <p>Om behandlingen<br>
-                <p>
-                    Om behandlingen
-Volume lashes - hvis du vil have et mere dramatisk look, så bør du overveje volume lashes.<br> Her bliver der påsat buketter at vipper til hver af dine egne vipper så du opnår mest muligt volume og fylde.</p>
-
-                <br>
-
-
-                <h4> Priser </h4><br>
-                <p>
-
-                    Nyt sæt................................................ 550 kr,- <br>
-                    Opfyldning efter 1 uge ................................................ 200 kr <br>
-                    Opfyldning efter 2 uger ................................................ 300 kr <br>
-                    Opfyldning efter 3 uger ................................................ 400 kr. <br>
-
-                </p>
-            </div>
-            <div class="slideshow-container">
-
-                <div class="volumelashes-slide">
-                    <img src="images/lashlift-514w.jpg" alt="lashes" class="billede-eksempler">
-                </div>
-
-                <div class="volumelashes-slide">
-                    <img src="images/volumelash-514w.jpg" alt="lashes" class="billede-eksempler">
-                </div>
-
-                <div class="volumelashes-slide">
-                    <img src="images/singellash-514w.jpg" alt="lashes" class="billede-eksempler">
-                </div>
-
-                <div class="three-dots">
-                    <span class="dot-four" onclick="fourthcurrentSlide(1)"></span>
-                    <span class="dot-four" onclick="fourthcurrentSlide(2)"></span>
-                    <span class="dot-four" onclick="fourthcurrentSlide(3)"></span>
-                </div>
-            </div>    
-        
-        
-        
-        
-        
-        </div>
-        
     </div>
 
-    <!-------wrapper slut------->
 
-    <script src="js/priserogbehandlinger.js"></script>
-      <script src="js/priserogbehandlinger2.js"></script>
-     <script src="js/priserogbehandlinger3.js"></script>
-    <script src="js/priserogbehandlinger4.js"></script>
+    <div class="questions">
+    <!-- oftes stillet spørgsmål  -->
+    <div class="flex-container">
+<div>
+    
+     <img src="images/amalieogkunde.jpg" alt="amalieogkunde" id="amalieogkunde"> 
+</div>
+
+        <div class="flex-item-left">
+            <h2>Ofte stillede spørgsmål</h2>
+            <div class="bjaelke"></div>
+            
+
+
+    <div class="flex-item-left">
+           
+           
+           
+           <h3>Skader det vipperne?</h3>
+           <p> Nej det gør det ikke! Når man får lavet det af en professionel, som ved hvad han/hun laver, så skader det ikke vipperne.</p>
+           
+            <h3> Hvor lang tid tager en behandling?</h3>
+            
+            <p>Det tager omkring 90-120 min. For et nyt sæt, en opfyldning tager lidt kortere tid alt afhængigt hvor mange vipper der er tilbage. </p>
+            
+    <h3>Hvor lang tid holder det?</h3>
+
+            <p>
+                Der er forskel på vippernes cyklus, og hvor hurtigt vipperne vokser, det kommer også an på hvor god man selv er, til at passe på vipperne.</p>
+        
+
+
+        </div>
+        <div>
+
+        </div>
+
+    </div>
+        </div>
+
+</div>
+
+<!--wrapper slut-->
+
+<script src="js/priserogbehandlinger.js"></script>
+<script src="js/priserogbehandlinger2.js"></script>
+<script src="js/priserogbehandlinger3.js"></script>
+<script src="js/priserogbehandlinger4.js"></script>
+
+</div> 
 </body>
 
 <footer>
 
-
-
     <section class="footer">
-        <div class="icon"><img src="images/adres-icon-100w.png">
+        <div class="icon"><img src="images/adres-icon-100w.png" alt=adresseicon>
             <h4>LOKATION</h4>
             <h5>Holmebakken 48</h5>
             <h5>8283 Hinnerup</h5>
         </div>
-        <div class="icon"><img src="images/contact-icon-100w.png" class="time-contact">
+        <div class="icon"><img src="images/contact-icon-100w.png" class="time-contact" alt="kontakticon">
             <h4>KONTAKT</h4>
             <h5>Følg @klinikhvid</h5>
             <h5>amalie-h.r@hotmail.com</h5>
         </div>
-        <div class="icon"><img src="images/time-icon-100w.png" class="time-contact">
+        <div class="icon"><img src="images/time-icon-100w.png" alt="utikon" class="time-contact">
             <h4>ÅBNINGSTIDER</h4>
             <h5>Man - Fre: 9:00 - 19:00</h5>
             <h5>Lør - Søn: Lukket</h5>
@@ -309,11 +382,11 @@ Volume lashes - hvis du vil have et mere dramatisk look, så bør du overveje vo
 
     </section>
 
-    <!-------info copyright------->
+    <!--info copyright-->
     <div class="copyright-bar">
         <h4>Copyright 2020 &#169; Klinik Hvid</h4>
     </div>
-    <!-------infocopyright slut------->
+    <!--infocopyright slut-->
 </footer>
 
 </html>
