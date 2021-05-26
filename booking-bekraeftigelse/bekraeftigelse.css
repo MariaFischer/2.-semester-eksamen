@@ -1,0 +1,71 @@
+.wrapper{
+	width: 100%;
+}
+
+.inner-wrapper{
+	width: 100%;
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+h1 {
+    padding-top: 0.5em;
+    text-align: center;
+}
+
+h3 {
+    text-align: left;
+}
+
+/* Bjælken under titlen */
+.bjaelke {
+    border-top: 1px solid black;
+    /* Bestemmer tykkelsen af bjælken */
+    width: 80px;
+    margin: 0 auto;
+    margin-top: 20px;
+    /* Bestemmer afstanden til overskriften */
+}
+
+
+p {
+    text-align: center;
+}
+
+#box {
+    background-color: #F2EEE8;
+    padding: 10px;
+    min-height: 250px;
+    margin: 0 auto;
+}
+
+.content {
+    text-align: left;
+}
+
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    max-width: 100%;
+   margin: 0 auto;
+}
+
+.flex-item {
+    flex: 33.33%;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+#lejeoplysninger {
+    text-align: left;
+}
+
+/* MEDIA QUERY FOR SCREENS UNDER 600PX */
+
+@media screen and (max-width: 600px) {
+    .flex-container {
+        flex-direction: column;
+    }
+}
